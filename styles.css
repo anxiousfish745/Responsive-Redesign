@@ -136,3 +136,9 @@ body {
   #toTop:hover {
     background-color: rgb(175, 137, 105,30%); /* Add a dark-grey background on hover */
   }
+
+  #interface{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+  }

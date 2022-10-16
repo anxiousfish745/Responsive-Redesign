@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sakis Pizza</title>
+    <!-- import javascript variables and functions -->
+    <script src="app.js" defer></script>
+    <!-- import CSS styles -->
+    <link rel="stylesheet" href="styles.css" /> 
+
+  </head>
+  <body>
+    <header>
+    <div class ="header">
+      <h1>Responsive Redesign</h1>
+      <h2>CSCI 1300</h2>
+    </div>  
+    </header>
+      
+    <div class ="row">
+      <h2>Part 1: Identifying Usability Problems</h2>
+      <h3 style="text-align: center;">Picking a Web page</h3>
+      <div style="float:left; width:40%; margin-left: 10%;">
+        <img src = "assets/sakis.jpg" alt = "original screenshot" style="width:90%">
+      </div>
+      <div style="float:right; width:45%">
+        <p>I picked this web page because I think it is “simple yet poorly-designed”: 
+          It is a simple website for a family-owned pizzeria, which basically shows its location, 
+          menu, introduction, and pictures. </p>
+      </div>
+    </div>
+
+    <div class="row" style="background-color: rgb(175, 137, 105,30%)">
+      <h3 style="text-align: center;">Finding Problems</h3>
+      <h4 style="text-align: center;">Mental vs Conceptual model</h4>
+      <div style="float:left; width:40%; margin-left: 10%;">      
+        <h5>Mental model: </h5>
+        <p>When entering the website of a pizzeria, people would mostly think of :</p>
+        <ol>
+          <li>See the menu</li>
+          <li>How to order (phone or online?)</li>
+          <li>Check the pizzeria's info (location, phone, hours)</li>
+        </ol>
+      </div>
+      <div style="float:right; width:45%">
+        <h5>Conceptual model:</h5>
+        <p>This website provides the conceptual model in these parts:</p>
+        <ol>
+          <li>Showing the menu</li>
+          <li>Providing the pizzeria's info (location, phone, hours)</li>
+          <li>Showing the pictures</li>
+          <li>Introducing the history(about us)</li>
+        </ol>
+      </div>
+      <h4 style="text-align: center;">Usability</h4>
+        <ol>
+          <li><b>Menu- hard to spot on large devices. </b></li>
+          <p>One of the most important contents of the website is the menu. 
+            On the mobile side, the menu is standing out at the center, 
+            with the high-contrast comparison for the background and the black border.  
+          </p>
+          <p>However, the menu button is not very visible on larger devices, 
+            for example, it is in the middle of the left column, where the eye-catching 
+            middle is a large picture of the interior. 
+          </p>
+          <div id = "interface">
+            <img src="assets/sakis1.jpg" alt="prob1" style="width:25%; margin-right: 10%;">
+            <img src="assets/sakis2.jpg" alt="prob2" style="width:60%">
+          </div>
+          <li><b>Hard to spot important information </b></li>
+          <p>
+            Similiarly, when the user visits the website, another important thing is the 
+            contact information for the pizzeria. In this case, it would be the location, 
+            phone number,  hours, and delivery availability. 
+            As discussed above, the website's large device display did not provide a proper 
+            text hierarchy for the information. They are located in the top right corner, with 
+            a relatively small font. Such an arrangement will make it difficult for the users 
+            to find the information effectively.
+          </p>
+          <li><b>Low font color contrast</b></li>
+          <p>Some of the texts are in low contrast with the background, 
+            which makes them hard to read. For example, the navigation 
+            “Home, Gallery, About Us” bar, when selected, turns to a grey color, 
+            which is really hard to read on the orange background. The same with the
+            “show more” at the bottom of the gallery. </p>
+          <img src="assets/sakis3.jpg" alt="prob3" style="width:60%">
+          <li><b>Misaligned paragraph</b></li>
+          <p>The whole paragraph in the “About Us” section is awkwardly arranged. 
+            The paragraph is too compact, and there are unnecessary line breaks, 
+            which makes the reading experience a bit difficult.
+          </p>
+          <img src="assets/sakis4.jpg" alt="prob4" style="width:60%">
+          <li><b>Gallery pictures do not have proper labels</b></li>
+          <p>The pictures in the “Gallery” are named with numbers and 
+            do not have any comments on them, and the customers will have no idea what the dish 
+            is called. </p>
+          <img src="assets/sakis5.jpg" alt="prob5" style="width:60%">
+          <li><b>Empty white region</b></li>
+          <p>The website is scrollable, on both mobile and desktop devices. 
+            However, on the desktop device with a larger display, there is a 
+            blank space with the copyright information, which is not part of the footer. 
+            There might be something wrong with the structure of the code, and 
+            I will try to figure it out in a later part.</p>
+          <img src="assets/sakis6.jpg" alt="prob6" style="width:60%">
+         
+          <li><b> Misplaced facebook link</b></li>
+          <p>The website provides the function of facebook likes. 
+            Its placement looks fine on the larger device display, 
+            but the button is misplaced in the mobile version, which is 
+            misaligned with the “find us on facebook”. </p>
+          <div id = "interface">
+            <img src="assets/sakis8.jpg" alt="prob8" style="width:25%; margin-right: 10%;">
+            <img src="assets/sakis7.jpg" alt="prob7" style="width:60%">
+          </div>          
+        </ol>
+        <h4 style="text-align: center;">Learnability</h4>
+        <p>As mentioned in the previous evaluation of usability, 
+          the first-time visitor who wants to see the information and 
+          the menu would have to browse between the left and right of the website. 
+          Since this website does not provide online order service, its function 
+          is fairly simple and straightforward. The users would not spend too much 
+          time on getting their target, but it still would take more time than expected.
+        </p>
+        <h4 style="text-align: center;">Memorability</h4>
+        <p>Similarly, since the website's function is fairly simple, 
+          the user would not have too much trouble getting their target when 
+          revisiting the website after a while. 
+        </p>
+
+    </div>
+    <div class="row" style="background-color: rgba(220, 211, 204, 0.3)">
+      <h3 style="text-align: center;">Accessibility</h3>
+      <h4>Results from WebAIM WAV:</h4>
+      <ol>
+        <li>No headings. </li>
+        <img src="assets/w1.jpg" alt="w1" style="width:60%">
+        <p>There is no headings for the website, made it poorly structured.</p>
+        <li>Text color contrast too low.</li>
+        <img src="assets/w2.jpg" alt="w2" style="width:60%">
+        <p>The color contrast between the text and the background is too low, 
+          making it hard to read.</p>
+        <li>Text too small.</li>
+        <div id = "interface">
+          <img src="assets/w3.jpg" alt="w3" style="width:45%; margin-right: 10%;">
+          <img src="assets/w4.jpg" alt="w4" style="width:55%">
+        </div>    
+        <p>Some text are too small, also making it very hard to read.</p>
+        <li>“Menu” link to PDF might cause accessibility problems.</li>
+        <img src="assets/w5.jpg" alt="w5" style="width:60%">
+        <p>The menu is linked to an external PDF file. I am not sure how to fix this thogh...</p>
+        <li>Alternative text not used properly</li>
+        <img src="assets/w6.jpg" alt="w6" style="width:60%">
+        <p>The alt description is not properly used.</p>
+
+
+
+
+
+
+      </ol>
+
+      
+    <div class="row">
+      <h2>About Us</h2>
+      <div class="box" style="background-color: rgb(255,150,18,10%); ">
+        <p>Sakis Pizzeria was established on August 5, 1982 and was founded by owner Dionisios (Dennis) Sampalis. <br>
+          <br>
+          The goal was to create a pizzeria serving delicious, affordable food with a Greek twist to the downtown Providence 
+          public. The small family business was opened in one of Providence's oldest historic buildings, across the street 
+          from the Providence Preforming Arts Center and Johnson & Wales University. In 2010, after years of planning, the 
+          Sampalis family undertook the renovations of the historic building and the restaurant, transforming Sakis Pizzeria 
+          to include a full service pizzeria, bar and grille.<br>
+          <br>
+          Today, as you enter the pizzeria, a winding staircase leads you to the new mezzanine overlooking Weybosset Street, 
+          where our clientele can enjoy a few drinks while sampling our new menu and watching a sports game. Our redesigned 
+          menu features new items and old favorites including specialty pizzas, salads, wraps, paninis, grinders, pasta dishes, 
+          club sandwiches, various seafood platters, Greek sandwiches and Greek pastries.<br>
+          <br>
+          We take pride in every dish that leaves our kitchen and hope that Sakis Pizzeria is and will continue to be your 
+          neighborhood choice for dining in or taking out.<br>
+          <br>
+          We greatly appreciate our loyal customers that we have been serving since 1982 and look forward to impressing 
+          our new customers!<br>
+          <br>
+          We thank you for your business and continued support!<br>
+          <br>
+          - The Sampalis Family<br>
+          
+          Dennis, Vasso, Maria, Deanna, and Vanessa</p>
+      
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+          <img src="assets/info1.jpg" alt="info1" style="width:100%; height: 50%;">
+      </div>
+      <div class="column">
+          <img src="assets/info2.jpg" alt="info2" style="width:100%; height: 50%;">
+      </div>
+      <div class="column">
+        <img src="assets/info3.jpg" alt="info3" style="width:100%; height: 50%;">
+      </div>      
+      <div class="column">
+        <img src="assets/info4.jpg" alt="info4" style="width:100%; height: 50%;">
+      </div>
+    </div>
+    <button onclick="topFunction()" id="toTop" title="Go to top">Top</button>
+    <div style="margin-left: 5%;">
+      <p>Find us on Facebook:</p>
+      <div id="fb-root" ></div>
+      <script async defer crossorigin="anonymous" 
+        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v15.0" nonce="rZwApYxl"></script>
+      <div class="fb-like" data-href="https://www.facebook.com/pages/Sakis-Grille-Pizza-Bar/441299149355822" data-width="" 
+        data-layout="standard" data-action="like" data-size="small" data-share="false" >
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer">
+        <p>Sakis Pizzeria Copyright 2012-2021 MADE BY anxiousfish745</p>
+      </div>
+    </footer>
+
+  </body>
+</html>
