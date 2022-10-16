@@ -7,6 +7,7 @@ div {
 body {
     font-family: Baskerville, "Baskerville Old Face";
     margin: 0;
+    background-color: #FFF7EF;
 }
  
 .header {
@@ -23,7 +24,7 @@ body {
 .container {
     position: relative;
     width: 100%;
-    padding: 0 16px;
+
   }
   
   /* Make the image responsive */
@@ -105,3 +106,32 @@ body {
     text-align: left;
     padding: 5%;
 }
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #FF9933;
+    color: white;
+    text-align: center;
+  }
+
+  #toTop {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #FF9933; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #toTop:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }

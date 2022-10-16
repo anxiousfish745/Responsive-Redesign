@@ -3,7 +3,7 @@
   <head>
     <title>Sakis Pizza</title>
     <!-- import javascript variables and functions -->
-    <!-- script src="app.js" defer></script -->
+    <script src="app.js" defer></script>
     <!-- import CSS styles -->
     <link rel="stylesheet" href="styles.css" /> 
 
@@ -11,11 +11,17 @@
   <body>
     <div class ="header">
       <h1>Welcome to Sakis</h1>
-      <h2>Grille - Pizzeria - Bar</h2>
+      <div style="float:left; width:40rem; ">
+        <img src = "assets/icon.webp" alt = "icon" style="width:4rem">
+      </div>
+      <h2 style="width:70%;">Grille - Pizzeria - Bar</h2>
     </div>  
     <div class ="container">
       <img src = "assets/menu.jpg" alt = "menu-pizza background">
-      <button class="btn">Menu</button>
+      <a href="https://www.sakispizza.com/_files/ugd/c55526_4fc3d470518443e3a36f9db8041a1fe8.pdf">
+        <button class="btn">Menu</button>
+      </a>
+      
     </div>
     <div class ="row">
       <h2>Location & hours</h2>
@@ -125,12 +131,25 @@
       
       </div>
     </div>
-    
-      
+    <div class="row">
+      <div class="column">
+          <img src="assets/info1.jpg" alt="info" style="width:100%; height: 50%;">
+      </div>
+      <div class="column">
+          <img src="assets/info2.jpg" alt="info" style="width:100%; height: 50%;">
+      </div>
+      <div class="column">
+        <img src="assets/info3.jpg" alt="info" style="width:100%; height: 50%;">
+      </div>      
+      <div class="column">
+        <img src="assets/info4.jpg" alt="info" style="width:100%; height: 50%;">
+      </div>
+    </div>
+    <button onclick="topFunction()" id="toTop" title="Go to top">Top</button>
 
 
-
-
-
+    <div class="footer">
+      <p>Sakis Pizzeria Copyright 2012-2021 MADE BY anxiousfish745</p>
+    </div>
   </body>
 </html>
