@@ -11,155 +11,242 @@
   <body>
     <header>
     <div class ="header">
-      <img src = "assets/icon.webp" alt = "icon" style="width:10%">
-      <h1>Welcome to Sakis</h1>
-      <h2>Grille - Pizzeria - Bar</h2>
+      <h1>Responsive Redesign</h1>
+      <h2>CSCI 1300</h2>
+      <h3>Link:<p><a href="resesign.html">Redesigned - Sakis Pizza</a></p></h3>
+      <h3>Link:<p><a href="https://www.sakispizza.com/">Original - Sakis Pizza</a></p></h3>
     </div>  
-    <div class ="container">
-      <img src = "assets/menu.jpg" alt = "menu-pizza background">
-      <a href="https://www.sakispizza.com/_files/ugd/c55526_4fc3d470518443e3a36f9db8041a1fe8.pdf">
-        <button class="btn"><b>Menu</b></button>
-      </a>
     </header>
       
-    </div>
-    <div class ="row">
-      <h2>Location & hours</h2>
+    <div class ="row" style="background-color: rgba(220, 211, 204, 0.3)">
+      <h2 >Part 1: Identifying Usability Problems</h2>
+      <h3 style="text-align: center; font-size: 2rem;">Picking a Web page</h3>
       <div style="float:left; width:40%; margin-left: 10%;">
-        <img src = "assets/map.png" alt = "map from mapquest" style="width:90%">
+        <img src = "assets/sakis.jpg" alt = "original screenshot" style="width:90%">
       </div>
       <div style="float:right; width:45%">
-        <h3>199 Weybosset Street</h3>
-        <h3>Providence, RI 02903</h3>
-        <h3>Phone: 1.401.277.2547</h3>
-        <h3>Mon - Sat: 10:00 am - 2:00 am</h3>
-        <h3>Sun: 11:00 am - 2:00 am</h3>
-        <h4>Gifts Cards available!</h4>
-        <h4>Bar area available for private parties</h4>
+        <p>I picked this web page because I think it is “simple yet poorly-designed”: 
+          It is a simple website for a family-owned pizzeria, which basically shows its location, 
+          menu, introduction, and pictures. </p>
       </div>
     </div>
 
-    <div class="row" style="background-color: rgb(175, 137, 105,30%)">
-      <h2>Gallery</h2>
-      <div class="column">
-        <div class="dish">
-          <img src="assets/pizza1.jpg" alt="Mozzarella" style="width:100%">
-            <p>Fresh Mozzarella, Garlic & Herb</p>
-            <p>Sm. 9.99 Mid 14.99 Lg. 18.50</p>
-        </div>
+    <div class="row" style="background-color: rgba(220, 211, 204, 0.3)">
+      <h3 style="text-align: center; font-size: 2rem;" >Finding Problems</h3>
+      <h4 style="text-align: center;">Mental vs Conceptual model</h4>
+      <div style="float:left; width:40%; margin-left: 10%;">      
+        <h5>Mental model: </h5>
+        <p>When entering the website of a pizzeria, people would mostly think of :</p>
+        <ol>
+          <li>See the menu</li>
+          <li>How to order (phone or online?)</li>
+          <li>Check the pizzeria's info (location, phone, hours)</li>
+        </ol>
       </div>
-      <div class="column">
-        <div class="dish">
-          <img src="assets/pizza2.jpg" alt="Meat Lovers pizza" style="width:100%">
-            <p>Meat Lovers</p>
-            <p>Sm. 13.29 Mid 18.59 Lg. 23.00</p>
-        </div>
-      </div> 
-      <div class="column">
-        <div class="dish">
-          <img src="assets/gyro.jpg" alt="Gyro" style="width:100%">
-            <p>Chicken Gyro</p>
-            <p>9.5</p>
-        </div>
+      <div style="float:right; width:45%">
+        <h5>Conceptual model:</h5>
+        <p>This website provides the conceptual model in these parts:</p>
+        <ol>
+          <li>Showing the menu</li>
+          <li>Providing the pizzeria's info (location, phone, hours)</li>
+          <li>Showing the pictures</li>
+          <li>Introducing the history(about us)</li>
+        </ol>
       </div>
-      <div class="column">
-        <div class="dish">
-          <img src="assets/burger.jpg" alt="Burger" style="width:100%">
-            <p>Cheese Burger, 100% Black Angus Beef Served With Fries</p>
-            <p>6.21</p>
-        </div>
-      </div>
-      <div class="column">
-        <div class="dish">
-          <img src="assets/wings.jpg" alt="Wings" style="width:100%">
-            <p>Fresh Fried Wings</p>
-            <p>10 for 12.50 / 15  for 17.13 / 20 for 23.15</p>
-        </div>
-      </div>
-      <div class="column">
-        <div class="dish">
-          <img src="assets/salad.jpg" alt="Salad" style="width:100%">
-            <p>Greek Salad</p>
-            <p>9.85</p>
-        </div>
-      </div>
-      <div class="column">
-        <div class="dish">
-          <img src="assets/calzone.jpg" alt="Calzone" style="width:100%">
-            <p>Italian Sausage Calzone</p>
-            <p>11.11</p>
-        </div>
-      </div>
-      <div class="column">
-        <div class="dish">
-          <img src="assets/cake.jpg" alt="Cake" style="width:100%">
-            <p>Cheese Cake</p>
-            <p>5.56</p>
-        </div>
-      </div>
-    </div>
-    <div class="row" style="background-color: rgb(175, 137, 105,30%)">
-      <p style="text-align: center;">...And more!</p>
-    </div>
-
-    <div class="row">
-      <h2>About Us</h2>
-      <div class="box" style="background-color: rgb(255,150,18,10%); ">
-        <p>Sakis Pizzeria was established on August 5, 1982 and was founded by owner Dionisios (Dennis) Sampalis. <br>
-          <br>
-          The goal was to create a pizzeria serving delicious, affordable food with a Greek twist to the downtown Providence 
-          public. The small family business was opened in one of Providence's oldest historic buildings, across the street 
-          from the Providence Preforming Arts Center and Johnson & Wales University. In 2010, after years of planning, the 
-          Sampalis family undertook the renovations of the historic building and the restaurant, transforming Sakis Pizzeria 
-          to include a full service pizzeria, bar and grille.<br>
-          <br>
-          Today, as you enter the pizzeria, a winding staircase leads you to the new mezzanine overlooking Weybosset Street, 
-          where our clientele can enjoy a few drinks while sampling our new menu and watching a sports game. Our redesigned 
-          menu features new items and old favorites including specialty pizzas, salads, wraps, paninis, grinders, pasta dishes, 
-          club sandwiches, various seafood platters, Greek sandwiches and Greek pastries.<br>
-          <br>
-          We take pride in every dish that leaves our kitchen and hope that Sakis Pizzeria is and will continue to be your 
-          neighborhood choice for dining in or taking out.<br>
-          <br>
-          We greatly appreciate our loyal customers that we have been serving since 1982 and look forward to impressing 
-          our new customers!<br>
-          <br>
-          We thank you for your business and continued support!<br>
-          <br>
-          - The Sampalis Family<br>
-          
-          Dennis, Vasso, Maria, Deanna, and Vanessa</p>
       
+      <h4 style="text-align: center; padding-top: 15%;">Usability</h4>
+        <ol>
+          <b><li>Menu- hard to spot on large devices. </li></b>
+          <p>One of the most important contents of the website is the menu. 
+            On the mobile side, the menu is standing out at the center, 
+            with the high-contrast comparison for the background and the black border.  
+          </p>
+          <p>However, the menu button is not very visible on larger devices, 
+            for example, it is in the middle of the left column, where the eye-catching 
+            middle is a large picture of the interior. 
+          </p>
+          <div id = "interface">
+            <img src="assets/sakis1.jpg" alt="prob1" style="width:25%; margin-right: 10%;">
+            <img src="assets/sakis2.jpg" alt="prob2" style="width:60%">
+          </div>
+          <b><li>Hard to spot important information </li></b>
+          <p>
+            Similiarly, when the user visits the website, another important thing is the 
+            contact information for the pizzeria. In this case, it would be the location, 
+            phone number,  hours, and delivery availability. 
+            As discussed above, the website's large device display did not provide a proper 
+            text hierarchy for the information. They are located in the top right corner, with 
+            a relatively small font. Such an arrangement will make it difficult for the users 
+            to find the information effectively.
+          </p>
+          <b><li>Low font color contrast</li></b>
+          <p>Some of the texts are in low contrast with the background, 
+            which makes them hard to read. For example, the navigation 
+            “Home, Gallery, About Us” bar, when selected, turns to a grey color, 
+            which is really hard to read on the orange background. The same with the
+            “show more” at the bottom of the gallery. </p>
+          <img src="assets/sakis3.jpg" alt="prob3" style="width:60%">
+          <b><li>Misaligned paragraph</li></b>
+          <p>The whole paragraph in the “About Us” section is awkwardly arranged. 
+            The paragraph is too compact, and there are unnecessary line breaks, 
+            which makes the reading experience a bit difficult.
+          </p>
+          <img src="assets/sakis4.jpg" alt="prob4" style="width:60%">
+          <b><li>Gallery pictures do not have proper labels</li></b>
+          <p>The pictures in the “Gallery” are named with numbers and 
+            do not have any comments on them, and the customers will have no idea what the dish 
+            is called. </p>
+          <img src="assets/sakis5.jpg" alt="prob5" style="width:60%">
+          <b><li>Empty white region</li></b>
+          <p>The website is scrollable, on both mobile and desktop devices. 
+            However, on the desktop device with a larger display, there is a 
+            blank space with the copyright information, which is not part of the footer. 
+            There might be something wrong with the structure of the code, and 
+            I will try to figure it out in a later part.</p>
+          <img src="assets/sakis6.jpg" alt="prob6" style="width:60%">
+         
+          <b><li> Misplaced facebook link</li></b>
+          <p>The website provides the function of facebook likes. 
+            Its placement looks fine on the larger device display, 
+            but the button is misplaced in the mobile version, which is 
+            misaligned with the “find us on facebook”. </p>
+          <div id = "interface">
+            <img src="assets/sakis8.jpg" alt="prob8" style="width:25%; margin-right: 10%;">
+            <img src="assets/sakis7.jpg" alt="prob7" style="width:60%">
+          </div>          
+        </ol>
+        <h4 style="text-align: center;">Learnability</h4>
+        <p>As mentioned in the previous evaluation of usability, 
+          the first-time visitor who wants to see the information and 
+          the menu would have to browse between the left and right of the website. 
+          Since this website does not provide online order service, its function 
+          is fairly simple and straightforward. The users would not spend too much 
+          time on getting their target, but it still would take more time than expected.
+        </p>
+        <h4 style="text-align: center;">Memorability</h4>
+        <p>Similarly, since the website's function is fairly simple, 
+          the user would not have too much trouble getting their target when 
+          revisiting the website after a while. 
+        </p>
+
+    </div>
+    <div class="row" style="background-color: rgba(220, 211, 204, 0.3)">
+      <h3 style="text-align: center;font-size: 2rem;">Accessibility</h3>
+      <h4>Results from WebAIM WAV:</h4>
+      <ol>
+        <b><li>No headings. </li></b>
+        <img src="assets/w1.jpg" alt="w1" style="width:50%">
+        <p>There is no headings for the website, made it poorly structured.</p>
+        <b><li>Text color contrast too low.</li></b>
+        <img src="assets/w2.jpg" alt="w2" style="width:50%">
+        <p>The color contrast between the text and the background is too low, 
+          making it hard to read.</p>
+        <b><li>Text too small.</li></b>
+        <div id = "interface">
+          <img src="assets/w3.jpg" alt="w3" style="width:45%; margin-right: 10%;">
+          <img src="assets/w4.jpg" alt="w4" style="width:55%">
+        </div>    
+        <p>Some text are too small, also making it very hard to read.</p>
+        <b><li>“Menu” link to PDF might cause accessibility problems.</li></b>
+        <img src="assets/w5.jpg" alt="w5" style="width:50%">
+        <p>The menu is linked to an external PDF file. I am not sure how to fix this though...</p>
+        <b><li>Alternative text not used properly</li></b>
+        <img src="assets/w6.jpg" alt="w6" style="width:50%">
+        <p>The alt description is not properly used. It might be better
+          to add more descriptive texts.
+        </p>
+      </ol>
+
+      
+    <div class="row" style="background-color: #FFD6AF">
+      <h2>Part 2: Visual Redesign</h2>
+      <h3>Low-fidelity Wireframing</h3>
+      <div class="column">
+        <img id = "largeImg" src="assets/lowmobile.png" alt="low-fi on mobile" style="width:90%; height: 50%;">
+      </div>
+      <div class="column">
+        <img id = "largeImg" src="assets/lowtab.png" alt="low-fi on tablet" style="width:100%; height: 50%;">
+      </div>
+      <div class="column">
+        <img id = "largeImg" src="assets/lowdesktop.png" alt="low-fi on desktop" style="width:100%; height: 50%;">
+      </div>
+      <h3 style="padding: 5%; text-align: center;">Visual Design Style Guide</h3>
+      <img src="assets/Style.png" alt="style" class ="center" >
+      <h3 style="padding: 5%; text-align: center;">High-Fidelity Prototyping</h3>
+      <h4 style="text-align: center;">Warning: long images!</h4>
+      <div class="column">
+        <img id = "largeImg" src="assets/himob.png" alt="hi-fi on mobile" style="width:60%; height: 50%;">
+      </div>
+      <div class="column">
+        <img id = "largeImg" src="assets/hitab.png" alt="hi-fi on tablet" style="width:100%; height: 50%;">
+      </div>
+      <div class="column">
+        <img id = "largeImg" src="assets/hidesk.png" alt="hi-fi on desktop" style="width:100%; height: 50%; margin-top: 5%;">
+      </div>
+      <div>
+        <p style = "padding: 2%;"><b>Annotations:</b></p>
+        <ol>
+          <li>
+            For the container of the “menu” background, I use the position: 
+            relative; so that i would keep a relative position with the button. <br><br>
+          </li>
+          <li>
+            I also use display: block for each div because there are not many 
+            flex elements required (besides the gallery and the later info images, 
+            which I use the row and column to adjust them better accordingly). <br><br>
+          </li>
+          <li>For h1,h2 and h3, I am using rem font size so that they would be 
+            relative to the root element, which would be responsive in different 
+            device sizes while keeping the proper text hierarchy.<br><br>
+          </li>
+          <li>
+            For side-by-side elements, such as the image and text in location & hours, 
+            I used the float:left and right. I also adjusted the margin for a 
+            better appearance.<br><br>
+          </li>
+          <li>
+            I adjusted the image sizes so that they will align better in the gallery. 
+            For the gallery layout, I referred to 
+            <a href="https://www.w3schools.com/HOWTO/howto_css_team.asp">w3schools</a>
+            for the alignment and 
+            display. <br><br>
+          </li>
+          <li>
+            There are interactive elements on the page, though not many. <br><br>
+            <ul>
+              <li>
+                When hovering above the menu button, its color changes and 
+                implies that it is clickable; when clicked, it links to the menu 
+                pdf file. I know it is not a good option, but since time is limited 
+                and I do not know much about interactive page construction, I will 
+                leave it as it was. Sorry. <br><br>
+              </li>
+              <li>
+                When scrolling down, the “top” button appears on the right side. 
+                I used a little Javascript here 
+                (credit to 
+                <a href="https://www.w3schools.com/HOWTO/howto_js_scroll_to_top.asp">w3schools.</a>) <br><br>
+              </li>
+              <li>
+                I have also linked the Facebook like button at the bottom, 
+                which is clickable. I get the code from 
+                <a href="https://developers.facebook.com/docs/plugins/like-button">Facebook.</a><br><br>
+              </li>
+            </ul>
+            <p>Many thanks to w3schools! I would not finish it without its amazing tutorials :')</p>
+          </li>
+        </ol> 
       </div>
     </div>
-    <div class="row">
-      <div class="column">
-          <img src="assets/info1.jpg" alt="info1" style="width:100%; height: 50%;">
-      </div>
-      <div class="column">
-          <img src="assets/info2.jpg" alt="info2" style="width:100%; height: 50%;">
-      </div>
-      <div class="column">
-        <img src="assets/info3.jpg" alt="info3" style="width:100%; height: 50%;">
-      </div>      
-      <div class="column">
-        <img src="assets/info4.jpg" alt="info4" style="width:100%; height: 50%;">
-      </div>
+    <div class="row" style="background-color: rgba(255, 153, 1, 0.7); text-align: center;">
+      <h2>Part 3: Responsive Redesign</h2>
+      <h3>Link:<p><a href="resesign.html">Sakis Pizza</a></p></h3>
     </div>
-    <button onclick="topFunction()" id="toTop" title="Go to top">Top</button>
-    <div style="margin-left: 5%;">
-      <p>Find us on Facebook:</p>
-      <div id="fb-root" ></div>
-      <script async defer crossorigin="anonymous" 
-        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v15.0" nonce="rZwApYxl"></script>
-      <div class="fb-like" data-href="https://www.facebook.com/pages/Sakis-Grille-Pizza-Bar/441299149355822" data-width="" 
-        data-layout="standard" data-action="like" data-size="small" data-share="false" >
-      </div>
-    </div>
+
 
     <footer>
       <div class="footer">
-        <p>Sakis Pizzeria Copyright 2012-2021 MADE BY anxiousfish745</p>
+        <p>MADE BY anxiousfish745</p>
       </div>
     </footer>
 

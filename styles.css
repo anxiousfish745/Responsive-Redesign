@@ -5,7 +5,7 @@ div {
 }
 
 body {
-    font-family: Baskerville, "Baskerville Old Face";
+    font-family: Georgia,Times,Times New Roman,serif; 
     margin: 0;
     background-color: #FFF7EF;
 }
@@ -40,10 +40,10 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: rgb(255,255,255,30%);
+    background-color: rgb(175, 137, 105,30%);
     color: black;
-    font-size: 3rem;
-    font-family: Baskerville, "Baskerville Old Face";
+    font-size: 4rem;
+    font-family: Georgia,Times,Times New Roman,serif;
     padding: 12px 24px;
     border: none;
     cursor: pointer;
@@ -53,7 +53,7 @@ body {
   }
   
   .container .btn:hover {
-    background-color: rgb(255,153,51,30%);
+    background-color: rgb(255,255,255,40%);
   }
 
   .row {
@@ -126,7 +126,7 @@ body {
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
     background-color: #FF9933; /* Set a background color */
-    color: white; /* Text color */
+    color: black; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 25px; /* Some padding */
     border-radius: 30px; /* Rounded corners */
@@ -134,11 +134,22 @@ body {
   }
   
   #toTop:hover {
-    background-color: rgb(175, 137, 105,30%); /* Add a dark-grey background on hover */
+    background-color: rgb(255,255,255,40%); /* Add a dark-grey background on hover */
   }
 
   #interface{
     display: flex;
     justify-content: center;
     padding: 2%;
+  }
+
+  #largeImg:hover {
+    transform:scale(1.4);
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
