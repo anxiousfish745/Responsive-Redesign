@@ -41,7 +41,7 @@ body {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: rgb(255,255,255,30%);
-    color: white;
+    color: black;
     font-size: 3rem;
     font-family: Baskerville, "Baskerville Old Face";
     padding: 12px 24px;
