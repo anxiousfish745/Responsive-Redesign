@@ -112,8 +112,8 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #FF9933;
-    color: white;
+    background-color: rgb(255,153,51,30%);
+    color: black;
     text-align: center;
   }
 
