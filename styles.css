@@ -1,0 +1,107 @@
+
+ 
+div {
+    display: block;
+}
+
+body {
+    font-family: Baskerville, "Baskerville Old Face";
+    margin: 0;
+}
+ 
+.header {
+    padding: 30px;
+    text-align: center;
+    background: #FF9933;
+    color: black;
+}
+
+.header h1 {
+    font-size: 4rem;
+}
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+    position: relative;
+    width: 100%;
+    padding: 0 16px;
+  }
+  
+  /* Make the image responsive */
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(255,255,255,30%);
+    color: white;
+    font-size: 3rem;
+    font-family: Baskerville, "Baskerville Old Face";
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 50%;
+    height: 50%;
+  }
+  
+  .container .btn:hover {
+    background-color: rgb(255,153,51,30%);
+  }
+
+  .row {
+    padding: 50px;
+    background-color: #FFF7EF;
+    
+  }
+
+  .row h2{
+    display: block;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+
+/* Three columns side by side */
+.column {
+    float: left;
+    width: 45%;
+    margin-bottom: 20px;
+    padding: 0 9px;
+  }
+  
+  /* Add some shadows to create a card effect */
+  .dish {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Clear floats */
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .dish p{
+    text-align: center;
+  }
+  
+  .box {
+    top: 50%;
+    left: 50%;
+    right: 50%
+    
+}
+.box p{
+    text-align: left;
+    padding: 5%;
+}
