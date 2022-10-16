@@ -131,6 +131,7 @@ body {
     padding: 25px; /* Some padding */
     border-radius: 30px; /* Rounded corners */
     font-size: 20px; /* Increase font size */
+    font-family: Georgia,Times,Times New Roman,serif;
   }
   
   #toTop:hover {
