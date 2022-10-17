@@ -20,137 +20,148 @@ body {
 .header h1 {
     font-size: 4rem;
 }
+
+/*https://www.w3schools.com/howto/howto_css_button_on_image.asp*/
+/*code from W3Schools for the "menu" with modification*/
 /* Container needed to position the button. Adjust the width as needed */
 .container {
     position: relative;
     width: 100%;
 
   }
-  
-  /* Make the image responsive */
-  .container img {
-    width: 100%;
-    height: auto;
-  }
-  
-  /* Style the button and place it in the middle of the container/image */
-  .container .btn {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: rgb(175, 137, 105,30%);
-    color: black;
-    font-size: 4rem;
-    font-family: Georgia,Times,Times New Roman,serif;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    width: 50%;
-    height: 50%;
-  }
-  
-  .container .btn:hover {
-    background-color: rgb(255,255,255,40%);
-  }
-
-  .row {
-    padding: 50px;
-    background-color: #FFF7EF;
-    
+/*https://www.w3schools.com/howto/howto_css_button_on_image.asp*/
+/*code from W3Schools for the "menu" with modification*/
+/* Make the image responsive */
+.container img {
+  width: 100%;
+  height: auto;
+}
+/*https://www.w3schools.com/howto/howto_css_button_on_image.asp*/
+/*code from W3Schools for the "menu" with modification*/  
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(175, 137, 105,30%);
+  color: black;
+  font-size: 4rem;
+  font-family: Georgia,Times,Times New Roman,serif;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 50%;
+  height: 50%;
+}
+/*https://www.w3schools.com/howto/howto_css_button_on_image.asp*/
+/*code from W3Schools for the "menu" with modification*/  
+.container .btn:hover {
+  background-color: rgb(255,255,255,40%);
   }
 
-  .row h2{
-    display: block;
-    text-align: center;
-    font-size: 2.5rem;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-  }
+.row {
+  padding: 50px;
+  background-color: #FFF7EF;
+  
+}
 
+.row h2{
+  display: block;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+/*https://www.w3schools.com/HOWTO/howto_css_team.asp*/
+/*code from W3Schools for the "gallery" with modification*/
 /* Three columns side by side */
 .column {
-    float: left;
-    width: 45%;
-    margin-bottom: 20px;
-    padding: 0 10px;
-    height:max-content;
-  }
-  
-  /* Add some shadows to create a card effect */
-  .dish {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  }
-  
-  /* Clear floats */
-  .container::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+  float: left;
+  width: 45%;
+  margin-bottom: 20px;
+  padding: 0 10px;
+  height:max-content;
+}
+/*https://www.w3schools.com/HOWTO/howto_css_team.asp*/
+/*code from W3Schools for the "gallery" with modification*/
+/* Add some shadows to create a card effect */
+.dish {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+/*https://www.w3schools.com/HOWTO/howto_css_team.asp*/
+/*code from W3Schools for the "gallery" with modification*/
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
-  .dish p{
-    text-align: center;
-  }
+.dish p{
+  text-align: center;
+}
+
+.box {
+  top: 50%;
+  left: 50%;
+  right: 50%
   
-  .box {
-    top: 50%;
-    left: 50%;
-    right: 50%
-    
 }
 .box p{
-    text-align: left;
-    padding: 5%;
+  text-align: left;
+  padding: 5%;
 }
 
 .footer {
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(255,153,51,30%);
-    color: black;
-    text-align: center;
-  }
-  /*https://www.w3schools.com/HOWTO/howto_js_scroll_to_top.asp*/
-  #toTop {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 45%; /* Place the button at the bottom of the page */
-    right: 4%; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: #FF9933; /* Set a background color */
-    color: black; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 25px; /* Some padding */
-    border-radius: 30px; /* Rounded corners */
-    font-size: 20px; /* Increase font size */
-    font-family: Georgia,Times,Times New Roman,serif;
-  }
-  
-  #toTop:hover {
-    background-color: rgb(255,255,255,40%); /* Add a dark-grey background on hover */
-  }
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(255,153,51,30%);
+  color: black;
+  text-align: center;
+}
+/*https://www.w3schools.com/HOWTO/howto_js_scroll_to_top.asp*/
+/*code from W3Schools for the "go to top bottom"*/
+#toTop {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 45%; /* Place the button at the bottom of the page */
+  right: 4%; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #FF9933; /* Set a background color */
+  color: black; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 25px; /* Some padding */
+  border-radius: 30px; /* Rounded corners */
+  font-size: 20px; /* Increase font size */
+  font-family: Georgia,Times,Times New Roman,serif;
+}
+/*https://www.w3schools.com/HOWTO/howto_js_scroll_to_top.asp*/
+/*code from W3Schools for the "go to top bottom"*/
+#toTop:hover {
+  background-color: rgb(255,255,255,40%); /* Add a dark-grey background on hover */
+}
 
-  #interface{
-    display: flex;
-    justify-content: center;
-    padding: 2%;
-  }
+#interface{
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+}
 
-  #largeImg:hover {
-    transform:scale(1.4);
-  }
+#largeImg:hover {
+  transform:scale(1.4);
+}
 
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

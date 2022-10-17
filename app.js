@@ -1,3 +1,6 @@
+//https://www.w3schools.com/HOWTO/howto_js_scroll_to_top.asp
+//code from W3Schools for the "go to top bottom"
+
 // Get the button:
 let mybutton = document.getElementById("toTop");
 
